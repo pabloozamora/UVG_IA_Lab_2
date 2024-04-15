@@ -18,7 +18,7 @@ def simular_experimentos(N):
     return sum(sumas) / N
 
 def repetir_simulacion_y_graficar(M, N):
-    promedios = [simular_experimentos(N) for _ in range(M)] # Repite la simulación de N experimentos M veces y graficar los promedios obtenidos
+    promedios = [simular_experimentos(N) for _ in range(M)] # Repetir la simulación de N experimentos M veces y graficar los promedios obtenidos
     
     plt.hist(promedios, bins=15, edgecolor='black', alpha=0.75)
     plt.title(f'Distribución de los promedios de {M} repeticiones (N={N})')
@@ -27,7 +27,6 @@ def repetir_simulacion_y_graficar(M, N):
     plt.grid(True)
     plt.show()
 
-# Ejemplos de uso
 valores_M = [5, 10, 50, 100, 200]
 N = 10000  # Número de lanzamientos en cada simulación
 for M in valores_M:
