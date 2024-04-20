@@ -1,3 +1,12 @@
+'''
+Inteligencia Artificial - Sección 20
+Laboratorio #2
+
+Diego Andrés Morales Aquino - 21762
+Erick Stiv Junior Guerra - 21781
+Pablo Andrés Zamora Vásquez - 21780
+'''
+
 import matplotlib.pyplot as plt
 from random import random, randint
 import numpy as np
